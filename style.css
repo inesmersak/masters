@@ -110,3 +110,22 @@ main p {
   text-align: justify;
   margin: 0 0 0.88em 0;
 }
+
+main a {
+  color: #aa2727;
+}
+
+main a:hover {
+  text-decoration: none;
+  color: #eedbdb;
+}
+
+main ul {
+  list-style-type: circle;
+  margin-left: -0.15em;
+}
+
+main li {
+  padding-left: 0.35em;
+  margin-top: 0.4em;
+}
