@@ -1,0 +1,6 @@
+- header
+- popravi galerijo (na 6 slikic)
+- galerija profesorjev
+- logo
+- besede
+- application form
