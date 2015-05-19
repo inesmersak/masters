@@ -1,6 +1,6 @@
-- header
+- header DONE
 - popravi galerijo (na 6 slikic)
 - galerija profesorjev
-- logo
+- logo DONE
 - besede
 - application form
