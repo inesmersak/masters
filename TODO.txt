@@ -1,5 +1,5 @@
 - header DONE
-- popravi galerijo (na 6 slikic)
+- popravi galerijo (na 6 slikic) DONE (popravljeno na 5)
 - galerija profesorjev
 - logo DONE
 - besede
