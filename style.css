@@ -104,11 +104,12 @@ nav ul li a {
 .clicked {
   background-color: #e0202e;
   color: #eedbdb;
+  margin: 0;
 }
 
-.clicked a {
+/* .clicked a {
   color: #eedbdb;
-}
+} */
 
 /* KONEC NAVIGACIJE */
 
