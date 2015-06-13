@@ -197,7 +197,7 @@ main a:hover, footer a:hover {
 
 main ul {
   font-size: 0.93em;
-  list-style-type: circle;
+  list-style: circle outside url('img/plusbullet.png');
   margin-left: -0.6em;
   margin-bottom: 1.3em;
 }
