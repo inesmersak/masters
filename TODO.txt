@@ -2,5 +2,5 @@
 - popravi galerijo (na 6 slikic) DONE (popravljeno na 5)
 - galerija profesorjev DONE
 - logo DONE
-- besede
+- besede DONE
 - application form
