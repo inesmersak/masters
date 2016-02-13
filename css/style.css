@@ -17,7 +17,7 @@ header {
   margin-top: 1em;
   width: 900px;
   height: 250px;
-  background-image: url('img/header.png');
+  background-image: url('../img/header.png');
 }
 
 footer {
@@ -91,6 +91,19 @@ nav ul li:hover {
 
 nav ul li:hover a {
   color: #eedbdb;
+}
+
+/* firefox specific margins */
+@-moz-document url-prefix() {
+  nav ul li a {
+    margin: 0 -3px 0 -3px !important;
+  }
+}
+/* ms edge specific margins */
+@supports (-ms-accelerator:true) {
+  nav ul li a {
+    margin: 0 -3px 0 -3px !important;
+  }
 }
 
 nav ul li a {
@@ -197,7 +210,7 @@ main a:hover, footer a:hover {
 
 main ul {
   font-size: 0.93em;
-  list-style: circle outside url('img/plusbullet.png');
+  list-style: circle outside url('../img/plusbullet.png');
   margin-left: -0.6em;
   margin-bottom: 1.3em;
 }
