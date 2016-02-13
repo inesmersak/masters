@@ -20,7 +20,7 @@ header {
   background-image: url('img/header.png');
 }
 
-footer{
+footer {
   margin-bottom: 0;
   margin-top: 2.15em;
   border-top: 1px solid #C4C4C4;
@@ -222,4 +222,21 @@ main li {
 .profesor h2 {
   margin-top: 0em;
   margin-bottom: 0.35em;
+}
+
+.button {
+  float: left;
+  background-color: #e0202e;
+  color: #ffffff;
+  border: 1px solid #C4C4C4;
+  padding: 0.4em 0.6em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.button:focus {
+  outline:0;
 }
