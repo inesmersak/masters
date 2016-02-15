@@ -5,10 +5,10 @@ $(document).ready(function () {
 function filterFields() {
     $('.profesorji > .profesor').hide();
     $( "input:checked" ).each(function() {
-        toggleField($(this).val());
+        showField($(this).val());
     });
 }
 
-function toggleField(id) {
-    $("."+id).toggle();
+function showField(id) {
+    $("."+id).show();
 }
