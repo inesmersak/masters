@@ -1,4 +1,4 @@
-- header DONE
+﻿- header DONE
 - popravi galerijo (na 6 slikic) DONE (popravljeno na 5)
 - galerija profesorjev DONE
 - logo DONE
@@ -6,8 +6,8 @@
 - application form
 
 13.2.16
-- filtriranje profesorjev po področju
-- drop down / meni za vsako smer
-- fix menu in firefox
-- favicon
+- filtriranje profesorjev po področju DONE
+- drop down / meni za vsako smer KINDA SORTA - FIREFOX COMPATIBILITY TO GO
+- fix menu in firefox DONE
+- favicon DONE
 - courses

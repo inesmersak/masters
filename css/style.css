@@ -78,6 +78,13 @@ nav ul {
   text-transform: uppercase;
   /*font-weight: bold;*/
   font-size: 0.8em;
+  position: relative;
+}
+
+nav ul:after {
+  content: "";
+  clear: both;
+  display: block;
 }
 
 nav ul li {
@@ -95,7 +102,7 @@ nav ul li:hover a {
 
 /* firefox specific margins */
 @-moz-document url-prefix() {
-  nav ul li a {
+  nav ul li a, nav ul ul, nav ul li:hover > ul li, nav ul ul li a, nav ul ul li:hover, nav ul ul li a:hover {
     margin: 0 -3px 0 -3px !important;
   }
 }
@@ -118,6 +125,42 @@ nav ul li a {
   background-color: #e0202e;
   color: #eedbdb;
   margin: 0;
+}
+
+/* Podmeni */
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul {
+  width: auto;
+  height: auto;
+	background-color: #C4C4C4;
+	font-size: 0.88em;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+nav ul li:hover > ul li {
+  width: 100%;
+  float: none;
+  border-top: 1px solid #7c686f;
+  position: relative;
+}
+nav ul li:hover > ul li a {
+  padding: 0.4em 0.8em 0.4em 0.8em;
+  color: #cc1420;
+  font-weight: 600;
+}
+nav ul li:hover > ul li:hover {
+  background: #615559;
+  color: #ffffff;
+}
+nav ul li:hover > ul li a:hover {
+  background: #615559;
+  color: #ffffff;
 }
 
 /* .clicked a {
