@@ -73,6 +73,7 @@ nav ul {
   list-style: none;
   margin: 0;
   margin-bottom: 2em;
+  border: 0px collapse;
   display: inline-table;
   text-align: center;
   text-transform: uppercase;
@@ -89,6 +90,7 @@ nav ul:after {
 
 nav ul li {
   display: inline-block;
+  border: 0px collapse;
 }
 
 nav ul li:hover {
@@ -98,19 +100,6 @@ nav ul li:hover {
 
 nav ul li:hover a {
   color: #eedbdb;
-}
-
-/* firefox specific margins */
-@-moz-document url-prefix() {
-  nav ul li a, nav ul ul, nav ul li:hover > ul li, nav ul ul li a, nav ul ul li:hover, nav ul ul li a:hover {
-    margin: 0 -3px 0 -3px !important;
-  }
-}
-/* ms edge specific margins */
-@supports (-ms-accelerator:true) {
-  nav ul li a {
-    margin: 0 -3px 0 -3px !important;
-  }
 }
 
 nav ul li a {
@@ -295,4 +284,9 @@ main li {
 
 .button:focus {
   outline:0;
+}
+
+dt {
+  margin-top: 0.3em;
+  font-weight: bold;
 }
