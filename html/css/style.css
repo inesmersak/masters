@@ -252,6 +252,11 @@ main li {
   margin-top: 0.18em;
 }
 
+main strong {
+  font-weight: 600;
+  color: #e0202e;
+}
+
 .profesor {
   margin: 1.1em 0.5em 1.1em 0.5em;
   clear: both;
