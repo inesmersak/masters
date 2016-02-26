@@ -1,0 +1,292 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: #eedcdc;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+}
+
+header {
+  margin: 0;
+  margin-top: 1em;
+  width: 900px;
+  height: 250px;
+  background-image: url('../img/header.png');
+}
+
+footer {
+  margin-bottom: 0;
+  margin-top: 2.15em;
+  border-top: 1px solid #C4C4C4;
+  text-align: center;
+  font-size: 0.7em;
+  padding: 0.4em;
+  clear: both;
+}
+
+main {
+  width: 700px;
+  margin: auto;
+  line-height: 1.4em;
+}
+
+#container {
+  margin: auto;
+  width: 1000px;
+  min-height: 100%;
+  height: 100%;
+  padding-top: 0.8em;
+  background-color: #FFFFFF;
+  border-left: 1px solid #C4C4C4;
+  border-right: 1px solid #C4C4C4;
+}
+
+#content-wrapper {
+  width: 900px;
+  margin: auto;
+  height: 95%;
+}
+
+/* NAVIGACIJA */
+
+nav {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  /* background: linear-gradient(#f0e9e9, #c4c0c0);
+  background: -moz-linear-gradient(#f0e9e9, #c4c0c0);
+	background: -webkit-linear-gradient(#f0e9e9, #c4c0c0);
+  background: -o-linear-gradient(#f0e9e9, #c4c0c0); */
+  background: #615559;
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 2em;
+  border: 0px collapse;
+  display: inline-table;
+  text-align: center;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
+  font-size: 0.8em;
+  position: relative;
+}
+
+nav ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+nav ul li {
+  display: inline-block;
+  border: 0px collapse;
+}
+
+nav ul li:hover {
+  background-color: #e0202e;
+  color: #eedbdb;
+}
+
+nav ul li:hover a {
+  color: #eedbdb;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  /*text-shadow: 1px 1px #B2B4D1;*/
+  color: #ffffff;
+  padding: 0.4em 0.8em 0.4em 0.8em;
+}
+
+.clicked {
+  background-color: #e0202e;
+  color: #eedbdb;
+  margin: 0;
+}
+
+/* Podmeni */
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul {
+  width: auto;
+  height: auto;
+	background-color: #C4C4C4;
+	font-size: 0.88em;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+nav ul li:hover > ul li {
+  width: 100%;
+  float: none;
+  border-top: 1px solid #7c686f;
+  position: relative;
+}
+nav ul li:hover > ul li a {
+  padding: 0.4em 0.8em 0.4em 0.8em;
+  color: #cc1420;
+  font-weight: 600;
+}
+nav ul li:hover > ul li:hover {
+  background: #615559;
+  color: #ffffff;
+}
+nav ul li:hover > ul li a:hover {
+  background: #615559;
+  color: #ffffff;
+}
+
+/* .clicked a {
+  color: #eedbdb;
+} */
+
+/* KONEC NAVIGACIJE */
+
+/* ZACETEK FOOTERJA */
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer table {
+  /*border: 1px solid black;*/
+  margin: auto;
+  padding: 0;
+}
+
+footer table td {
+  /*border: 1px solid black;*/
+  padding: 0;
+  margin: 0;
+  min-width: 20px;
+  max-width: 290px;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+.logo {
+  padding: 0;
+}
+
+.copyright {
+  width: 200px;
+  text-align: justify;
+  padding-left: 1em;
+}
+
+/* KONEC FOOTERJA */
+
+h1 {
+  color: #e0202e;
+  font-size: 1.5em;
+  padding: 0 0 0.1em 0.25em;
+  border-bottom: 1px solid #C4C4C4;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  margin-top: 1.1em;
+}
+
+h2 {
+  color: #e0202e;
+  font-size: 1.25em;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  margin-top: 1.1em;
+  margin-bottom: 0.35em;
+}
+
+h3 {
+  color: #e0202e;
+  font-size: 1.14em;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  margin-top: 0.4em;
+  margin-bottom: 0.35em;
+}
+
+main p {
+  font-size: 0.93em;
+  padding: 0.2em;
+  text-align: left;
+  margin: 0 0 0.88em 0;
+}
+
+main a, footer a {
+  color: #e0202e;
+}
+
+main a:hover, footer a:hover {
+  text-decoration: none;
+  color: #615559;
+}
+
+main ul {
+  font-size: 0.93em;
+  list-style: circle outside url('../img/plusbullet.png');
+  margin-left: -0.6em;
+  margin-bottom: 1.3em;
+}
+
+main li {
+  padding-left: 0.45em;
+  margin-top: 0.18em;
+}
+
+.profesor {
+  margin: 1.1em 0.5em 1.1em 0.5em;
+  clear: both;
+  height: auto;
+  overflow: auto;
+}
+
+.profesor img {
+  float: left;
+  margin-right: 1em;
+}
+
+.profesor h2 {
+  margin-top: 0em;
+  margin-bottom: 0.35em;
+}
+
+.button {
+  float: left;
+  background-color: #e0202e;
+  color: #ffffff;
+  border: 1px solid #C4C4C4;
+  padding: 0.4em 0.6em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.button:focus {
+  outline:0;
+}
+
+dt {
+  margin-top: 0.3em;
+  font-weight: bold;
+}

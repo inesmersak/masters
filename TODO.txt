@@ -7,7 +7,7 @@
 
 13.2.16
 - filtriranje profesorjev po področju DONE
-- drop down / meni za vsako smer KINDA SORTA - FIREFOX COMPATIBILITY TO GO
+- drop down / meni za vsako smer DONE
 - fix menu in firefox DONE
 - favicon DONE
 - courses
