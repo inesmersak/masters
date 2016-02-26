@@ -197,8 +197,8 @@ footer table td {
 h1 {
   color: #e0202e;
   font-size: 1.5em;
-  padding: 0 0 0.1em 0.25em;
-  border-bottom: 1px solid #C4C4C4;
+  padding: 0;
+  /*border-bottom: 1px solid #C4C4C4;*/
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   margin-top: 1.1em;
@@ -255,6 +255,15 @@ main li {
 main strong {
   font-weight: 600;
   color: #e0202e;
+}
+
+.important {
+  border: 1px solid #C4C4C4;
+  background-color: #ffe0e0;
+  margin: 1.2em 0.5em;
+  padding: 0.6em 1em;
+  font-size: 0.93em;
+  text-align: justify;
 }
 
 .profesor {
