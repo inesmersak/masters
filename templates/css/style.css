@@ -263,14 +263,13 @@ main dl {
 
 main dt {
   font-weight: 600;
-  color: #FFFFFF;
   font-size: 1.06em;
-  text-shadow: 0px 0px 3px #ff0000;
+  margin-top: 0.4em;
 }
 
-.toggle {
-  text-shadow: 0px 0px 3px #000000;
+.toggle:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .important {
@@ -317,9 +316,4 @@ main dt {
 
 .button:focus {
   outline:0;
-}
-
-dt {
-  margin-top: 0.3em;
-  font-weight: bold;
 }
