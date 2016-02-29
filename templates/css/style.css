@@ -183,7 +183,7 @@ footer table td {
 }
 
 .logo {
-  padding: 0;
+  padding-right: 1em;
 }
 
 .copyright {
@@ -267,8 +267,14 @@ main dt {
   margin-top: 0.4em;
 }
 
+.toggle {
+  border-bottom: 1px dotted #000000;
+  display:inline;
+}
+
 .toggle:hover {
   text-decoration: underline;
+  border-bottom: none;
   cursor: pointer;
 }
 
